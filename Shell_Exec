@@ -1,0 +1,17 @@
+Python and PHP Integration
+
+I am computer science professional while I was working on my FYP. I had spent most of the time on how to run python code 
+from server side i.e. PHP. Because I wanted to show the results on (front-end) HTML. Also after my graduation so many student 
+contact me about it. Then I decided to write a small guide on Python and PHP integration.
+
+Today I am going to guide you step by step that how you will execute you python code from your server side (PHP- code).
+
+1.	Save both python and PHP files in the same directory (mandatory).
+2.	Use Shell_Exce function in your PHP code.
+  i.	Shell_Exec( ) fuction can take two parameters.
+  ii.	1st parameter is the python installation directory path on your machine/PC. Python installation directory path likely be, 
+        e.g.  C:/Users/Atif/AppData/Local/Programs/Python/Python36-32/python
+  iii.	2nd parameter is the name of python file with .py extension that you want to execute e.g. myFile.py
+  iv.	Below is the example of shell_exec (1st para space 2nd para).
+              
+              Shell_Exec ('C:/Users/Atif/AppData/Local/Programs/Python/Python36-32/python	myFile.py');
